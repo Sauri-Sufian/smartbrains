@@ -1,0 +1,51 @@
+.cardbody{
+    font-family: 'Courier New', Courier, monospace;
+    background:transparent;
+    display: inline-block;
+    height: 20rem;
+    width:22rem;
+    padding: 1rem;
+    margin: .5rem ;
+    border-width: .25rem;
+    border-radius: .5rem;
+    box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 );
+    
+}
+
+
+label{
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+hr{
+    border-style: none;
+}
+.signinput{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: transparent;
+    border:1px solid black;
+}
+.signinput:hover{
+    background:rgb(93, 194, 235) ;
+}
+
+button{
+    margin: auto;
+    border:none;
+    background-color: transparent;
+    
+}
+button:active{
+    transform: scale(.8);
+}
+.btn{
+    margin-top: 10px;
+    display: inline;
+    border:1px solid black;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}

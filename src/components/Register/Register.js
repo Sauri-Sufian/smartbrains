@@ -26,7 +26,7 @@ class Register extends React.Component{
             alert("Credentials can't be empty")
         }
         else{ 
-        fetch("https://powerful-river-57741.herokuapp.com/register",{
+        fetch("https://fathomless-headland-36250.herokuapp.com/register",{
             method:'post',
             headers:{"Content-Type":"application/json"},
             body:JSON.stringify({
